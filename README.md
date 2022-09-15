@@ -2,6 +2,19 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.8.
 
+Live uil : https://employee-table-list.netlify.app/
+
+Employee Table
+![image](https://user-images.githubusercontent.com/64727650/190414128-c28d3dd0-10b8-436b-ac39-9f37e0138720.png)
+Add employee : 
+![image](https://user-images.githubusercontent.com/64727650/190414242-fcc011b7-5b2c-42ac-a3bc-cb569a26626a.png)
+
+Edit Table:
+![image](https://user-images.githubusercontent.com/64727650/190414360-d65647e9-d5e5-4bc8-b134-8cad7f3bd4da.png)
+
+Delete Employee :
+![image](https://user-images.githubusercontent.com/64727650/190414480-ab58fe78-f6c1-4941-ae7b-7584b287eafb.png)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
