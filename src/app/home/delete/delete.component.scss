@@ -1,0 +1,37 @@
+ .delete{
+    // padding: 50px;
+    .heading{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+        padding: 20px 0px;
+        font-size: 18px;
+    }
+ }
+
+ .submit_button {
+     display: flex;
+     justify-content: space-between;
+
+     button {
+         background-color: #f45e61;
+         width: 48%;
+     }
+
+     .bg-primary {
+         background-color: blue;
+     }
+
+     .mat-button-disabled {
+         color: #9c9595 !important;
+         opacity: .6 !important;
+         background-color: #f45e61 !important;
+     }
+
+     button:hover {
+         outline: none;
+         box-shadow: 1px 2px 2px -3px !important;
+         border-color: #f45e61;
+     }
+ }

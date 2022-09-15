@@ -1,0 +1,31 @@
+.table {
+    padding: 50px 100px;
+
+    .header {
+        padding: 30px 0px;
+        h2 {
+            text-align: center;
+        }
+
+        .addButton {
+            display: flex;
+            justify-content: right;
+            flex-wrap: wrap;
+            
+        }
+    }
+
+    table {
+        width: 100%;
+        th, td {
+            padding-left: 50px;
+            // text-align: center;
+        }
+    }
+
+    .logout{
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+    }
+}

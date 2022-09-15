@@ -1,0 +1,9 @@
+<div class="delete">
+    <h1 class="heading">Delete</h1><hr>
+    <p>Are you sure to delete {{employee.name}}</p>
+    <div class="submit_button">
+      <button mat-raised-button class="bg-primary" *ngIf="!submitted" (click)="deleteEmployee()">Delete</button>
+        <button mat-raised-button class="bg-primary"  *ngIf="submitted" >Deleting...</button>
+      <button mat-raised-button class="bg-secondary" (click)="closedDialog()">Cancel</button>
+    </div>
+</div>

@@ -1,0 +1,27 @@
+<div class="create-course">
+  <header>
+    <h2>Update Employee Details</h2>
+  </header>
+  <form [formGroup]="employeeForm">
+
+    <mat-form-field class="formInput">
+      <mat-label>Name</mat-label>
+      <input matInput formControlName="name" placeholder="Enter Your Name" required>
+    </mat-form-field>
+
+
+    <mat-form-field class="formInput">
+      <mat-label>Email</mat-label>
+      <input matInput formControlName="email" placeholder="Enter Your Email" required>
+    </mat-form-field>
+
+
+
+    <div class="submit_button">
+      <button mat-raised-button class="bg-primary" *ngIf="!submitted" (click)="updateEmployee(employeeForm.value)"
+        [disabled]="!employeeForm.valid">Update</button>
+        <button mat-raised-button class="bg-primary"  *ngIf="submitted" >Updating...</button>
+      <button mat-raised-button class="bg-secondary" (click)="closedDialog()">Cancel</button>
+    </div>
+  </form>
+</div>

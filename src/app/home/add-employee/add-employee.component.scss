@@ -1,0 +1,59 @@
+.create-course {
+    .text-wrapper {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .centered {
+        font-family: sans-serif;
+        font-size: 1.3em;
+        text-align: center;
+    }
+
+
+    .text-wrapper {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .centered {
+        font-family: sans-serif;
+        font-size: 1.3em;
+        text-align: center;
+    }
+
+
+
+
+    .formInput {
+        width: 100% !important;
+    }
+
+
+    .submit_button {
+        display: flex;
+        justify-content: space-between;
+
+        button {
+            background-color: #f45e61;
+            width: 48%;
+        }
+
+        .bg-primary {
+            background-color: blue;
+        }
+
+        .mat-button-disabled {
+            color: #9c9595 !important;
+            opacity: .6 !important;
+            background-color: #f45e61 !important;
+        }
+
+        button:hover {
+            outline: none;
+            box-shadow: 1px 2px 2px -3px !important;
+            border-color: #f45e61;
+        }
+    }
+
+}
